@@ -1,3 +1,80 @@
+# 📊 Retail Performance Dashboard & Strategic Analysis — 4 Stores  
+**Revenue · Logistics · Customer Experience · Geographic Insights**
+
+This project analyzes three years of sales data from four retail stores to identify performance drivers, underperforming locations and opportunities for portfolio optimization. Using Python for data cleaning, exploratory analysis and visualization, it delivers clear dashboards and an executive recommendation to support strategic business decisions.
+
+## 🎯 Project Objective
+
+Conduct an exploratory, visual and strategic analysis to:
+
+- Compare revenue, logistics and customer satisfaction across 4 stores.
+- Identify top-performing products, categories and cities.
+- Detect geographic sales patterns and market concentration.
+- Evaluate whether any store consistently underperforms.
+- Deliver a data-driven executive recommendation.
+
+## 🗂️ Repository Structure
+
+```text
+/data          → source data files
+/imgs          → dashboard and visualization images
+/notebooks     → main Jupyter notebook (.ipynb)
+README.md      → project documentation
+requirements.txt → required Python libraries
+```
+
+## 📈 Key Dashboards & Visualizations
+
+- Store performance comparison: revenue, shipments and market share
+- Top 10 cities by revenue and sales volume
+- Sales breakdown by product category per store
+- Geographic distribution of sales by city
+- Total revenue vs. average shipping cost
+- Revenue share (%) by store
+- Customer rating vs. revenue relationship
+- Best- and worst-selling products by store
+- Product concentration analysis (Top 5 share of sales)
+
+All visualizations are available in the `/imgs` folder.
+
+## 📌 KPI Comparison
+
+| KPI | Business Question | Benchmark / Warning Sign | Key Finding |
+|---|---|---|---|
+| Revenue share (%) | Which store contributes least to total revenue? | <25% sustained share | Store 4 contributes 23.6%, the lowest cumulative revenue. |
+| Shipping cost | Are logistics costs eroding margins? | >15% above store average | Store 1 has the highest shipping costs; no clear correlation with sales. |
+| Customer rating | Is satisfaction consistent across stores? | <4.0 vs. internal benchmark | Ratings range 3.98–4.05; no critical gaps. |
+| Top 5 products share | Is revenue overly concentrated in few products? | <35% or >60% of sales | All stores between 39–42%; balanced but Store 4 has lower absolute volume. |
+| Geographic concentration | Are sales overly dependent on few cities? | >70% in low-potential cities | High concentration in Bogotá and Medellín; Store 4 underperforms even in key markets. |
+
+## 🧭 Executive Summary
+
+The four stores show similar performance in categories, ratings and geographic distribution, but differ significantly in sales volume. **Store 4** consistently underperforms:
+
+- Lowest revenue contribution (23.6%)
+- Lowest absolute volume for Top 5 products
+- Weaker traction even in high-demand cities
+- No logistical or customer experience advantage
+- Weakest overall performance across compared KPIs
+
+## ✅ Recommendation
+
+- Maintain Stores 1, 2 and 3 as the core portfolio.
+- Consider divesting Store 4, as its marginal contribution does not justify continued operation.
+
+## ⚙️ Tools & Technologies
+
+- Python (pandas, numpy)
+- Matplotlib, Seaborn
+- Jupyter Notebook / Google Colab
+
+## 👤 Author
+
+**Nairobi Betancourt**  
+Data Analysis · Dashboard Development · Executive Reporting
+
+
+
 ## 📊 **Análisis Comparativo de 4 Tiendas**  
 ### Facturación · Envíos · Top Productos · Geografía
 
