@@ -1,6 +1,13 @@
 # 📊 Retail Performance Dashboard & Strategic Analysis — 4 Stores  
 **Revenue · Logistics · Customer Experience · Geographic Insights**
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
+![pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)
+
 This project analyzes three years of sales data from four retail stores to identify performance drivers, underperforming locations and opportunities for portfolio optimization. Using Python for data cleaning, exploratory analysis and visualization, it delivers clear dashboards and an executive recommendation to support strategic business decisions.
 
 ## 🎯 Project Objective
